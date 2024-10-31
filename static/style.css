@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: gold;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    border: none;
+}
+
+button {
+    background-color: #FF9800;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF5722;
+}
